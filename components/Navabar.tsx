@@ -32,7 +32,7 @@ function Navbar() {
           <h1>Contact</h1>
         </a>
         <a href="/project">
-          <h1>Project</h1>
+          <h1>Projects</h1>
         </a>
         <h1>Services</h1>
       </div>
