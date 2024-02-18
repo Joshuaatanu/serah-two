@@ -3,9 +3,9 @@ import Navbar from "@/components/Navabar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#E9eeed]">
       <Navbar />
-      <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/home_jumbo.png")]'>
+      <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/home_jumbo.jpg")]'>
         <h3 className="text-[60px] text-white">
           The Premiere Copy <br /> Destination For Plant/ <br /> Vegan Food and
           Cruelty free Brands.
@@ -70,6 +70,12 @@ export default function Home() {
             <li>Articles</li>
             <li> SEO Optimization</li>
           </ul>
+          <button
+            className="bg-[#000000] px-8  text-white lg:text-[20px] py-3 rounded-md mt-5 hover:border-black hover:border hover:bg-white hover:text-black"
+            aria-label="jumbtron_home_button"
+          >
+            Read more
+          </button>
         </div>
 
         <div className="ml-[500px]">
@@ -86,6 +92,35 @@ export default function Home() {
           <h2 className="text-center text-[40px]"> testimonial section</h2>
         </div>
       </section>
+      {/* get to know me section */}
+      <section className="px-32">
+        <div className=" flex flex-row">
+          <div className=" mt-24">
+            <h3>Get know me</h3>
+            <p>
+              Hello!! I’m Sarah, a copywriter with a specialized focus <br /> on
+              vegan, plant-based goods, as well as cruelty-free goods. <br />{" "}
+              With a passion for ethical living, I go beyond crafting <br />{" "}
+              compelling content and I’m all about brand growth in the <br />{" "}
+              ever-expanding realm of conscious consumerism.
+            </p>
+            <p className="mt-3 ">
+              I strive to enlighten audiences about sustainable choices <br />
+              and partner with brands to elevate their awareness in this <br />{" "}
+              rapidly growing industry. I’m not just a writer but a catalyst{" "}
+              <br /> for positive change and brand evolution in the world of{" "}
+              <br /> compassionate and conscious living. 
+            </p>
+          </div>
+
+          <div className="h-[350px] w-[426px] rounded-tl-[80px] ml-[30%] mt-20  bg-red-400 rounded-tr-[80px]">
+            <h3 className="text-center mx-auto">Image</h3>
+          </div>
+        </div>
+      </section>
+      {/* call to action */}
+      <div className="flex flex-row justify-center items-center mt-4 "><div className='h-[420px] w-[1320px] rounded-[70px] bg-cover px-32 py-16  bg-[url("../public/call_to_action_home.jpg")]'></div></div>
+      
     </div>
   );
 }

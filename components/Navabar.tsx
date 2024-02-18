@@ -23,18 +23,18 @@ function Navbar() {
     }, []);
   return (
     <nav className={` px-8 py-4 w-full flex flex-row text-black fixed ${showBackground ? "bg-zinc-900 bg-opacity-90" : ""} `}>
-        <h2 className="text-2xl">Logo</h2>
-      <div className="ml-auto flex flex-row space-x-20  text-[16px]">
+        <a href="/"><h2 className="text-2xl text-white">Logo</h2></a>
+      <div className="ml-auto flex flex-row space-x-20  text-white text-[16px]">
       <a href="/">
           <h1>Home</h1>
         </a>
         <a href="/contact">
           <h1>Contact</h1>
         </a>
-        <a href="/project">
-          <h1>Projects</h1>
+        <a href="/about">
+          <h1>About</h1>
         </a>
-        <h1>Services</h1>
+        <a href="/services"><h1>Services</h1></a>
       </div>
     </nav>
   );
