@@ -6,11 +6,11 @@ export default function Home() {
     <div className="bg-[#E9eeed]">
       <Navbar />
       <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/home_jumbo.jpg")]'>
-        <h3 className="text-[60px] text-white">
+        <h3 className="text-[60px] unbounded-regular text-white">
           The Premiere Copy <br /> Destination For Plant/ <br /> Vegan Food and
           Cruelty free Brands.
         </h3>
-        <p className="text-[24px] text-white">
+        <p className="text-[24px] playfair-regular text-white">
           At our company, we specialize in providing top-quality services to our{" "}
           <br /> clients. Our team of experts works tirelessly to ensure that
           every project <br /> is completed to the highest..
@@ -24,13 +24,13 @@ export default function Home() {
       </div>
       {/* What we do section */}
       <section className="px-32">
-        <h3 className="text-center text-[40px]">What we do</h3>
+        <h3 className="text-center text-[40px] playfair-bold-italic italic font-bold">What we do</h3>
         <div className="flex flex-row">
-          <h3 className="text-[60px]">
+          <h3 className="text-[60px] craftswork-semibold font-semibold">
             There’s more to your <br /> brand but are your <br />
             customers aware ?
           </h3>
-          <p className="text-[20px] ml-[500px] px-5 mt-8">
+          <p className="text-[20px] ml-[500px] text-[#727070] px-5 mt-8 craftswork-semibold">
             Having a unique voice can be a struggle, with so many <br /> health
             focused and cruelty free brands, many have found <br /> themselves
             getting swallowed in that ocean. <br />
@@ -48,7 +48,7 @@ export default function Home() {
       {/* what we offer  section */}
       <section className="px-32 flex ">
         <div>
-          <p className="text-[20px]">
+          <p className="text-[20px] text-[#727070] craftswork-semibold ">
             The industry is booming and more people around the globe <br /> are
             searching daily for trusted brands to help on their <br /> journey.
             But, having a wide reach and driving traffic where <br /> needed can
@@ -58,7 +58,7 @@ export default function Home() {
             to your audience, building trust whilst offering <br />
             some of the best products.
           </p>
-          <p className="text-16px mt-16">
+          <p className="text-16px mt-16  playfair-regular">
             At our company, we specialize in providing top- <br />
             quality services to our clients. Our team of experts <br /> works
             tirelessly to ensure that every project is <br /> completed to the
@@ -79,7 +79,7 @@ export default function Home() {
         </div>
 
         <div className="ml-[500px]">
-          <h3 className="text-[60px]">
+          <h3 className="text-[60px]  craftswork-semibold font-semibold">
             All things <br /> cruelty free <br />
             is going <br /> nowhere and <br />
             so is your <br /> brand.
@@ -96,15 +96,15 @@ export default function Home() {
       <section className="px-32">
         <div className=" flex flex-row">
           <div className=" mt-24">
-            <h3>Get know me</h3>
-            <p>
+            <h3 className="text-[40px] playfair-bold-italic italic font-bold mb-5">Get know me</h3>
+            <p className="craftswork-semibold text-[24px] ">
               Hello!! I’m Sarah, a copywriter with a specialized focus <br /> on
               vegan, plant-based goods, as well as cruelty-free goods. <br />{" "}
               With a passion for ethical living, I go beyond crafting <br />{" "}
               compelling content and I’m all about brand growth in the <br />{" "}
               ever-expanding realm of conscious consumerism.
             </p>
-            <p className="mt-3 ">
+            <p className="mt-3 craftswork-semibold text-[24px]">
               I strive to enlighten audiences about sustainable choices <br />
               and partner with brands to elevate their awareness in this <br />{" "}
               rapidly growing industry. I’m not just a writer but a catalyst{" "}
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </section>
       {/* call to action */}
-      <div className="flex flex-row justify-center items-center mt-4 "><div className='h-[420px] w-[1320px] rounded-[70px] bg-cover px-32 py-16  bg-[url("../public/call_to_action_home.jpg")]'></div></div>
+      <div className="flex flex-row justify-center items-center mt-4 "><div className='h-[420px] w-[1320px] rounded-[70px] bg-cover px-32 py-16  hidden'></div></div>
       
     </div>
   );

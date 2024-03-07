@@ -1,4 +1,5 @@
 "use client"
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navabar";
 import React, { useState } from "react";
 
@@ -38,51 +39,22 @@ function Contact() {
         </button>
       </div>
 
-      <section className="px-[32px]">
-        <h3 className="text-center text-[48px]">
+      <section className="px-[32px] mb-16">
+        <h3 className="text-center playfair-regular italic font-semibold ] text-[48px]">
           {" "}
           ready to Redefine Your Narrative?{" "}
         </h3>
-        <p className="text-[16px] text-center">
+        <p className="text-[16px] playfair-regular text-center">
           Crafting compelling copy that ot only converts but also leaves
           customers wanting more
         </p>
       </section>
 
       {/* faq section */}
-      <section>
-      <div className="max-w-3xl mx-auto">
-            <div className="flex">
-                {tabs.map((tab, index) => (
-                    <button
-                        key={index}
-                        className={`px-4 py-2  ${
-                            activeTab === index
-                                ? 'bg-blue-500 text-white'
-                                : 'bg-gray-200 text-gray-700'
-                        }`}
-                        onClick={() => setActiveTab(index)}
-                    >
-                        {tab.title}
-                    </button>
-                ))}
-            </div>
-            <div className="mt-4 border-t pt-4">
-                <div className={`flex space-x-4 ${activeTab === 0 ? '' : 'hidden'}`}>
-                    <div className="flex-1">{tabs[0].leftContent}</div>
-                    <div className="flex-1">{tabs[0].rightContent}</div>
-                </div>
-                <div className={`flex space-x-4 ${activeTab === 1 ? '' : 'hidden'}`}>
-                    <div className="flex-1">{tabs[1].leftContent}</div>
-                    <div className="flex-1">{tabs[1].rightContent}</div>
-                </div>
-                {/* Add more tab content sections as needed */}
-            </div>
-        </div>
-      </section>
+     
 
       <section className="px-32">
-        <h3 className="text-[48px">What Each Service Offers You:</h3>
+        <h3 className=" px-64 mb-10 playfair-regular italic font-semibold  text-[48px] ">What Each Service Offers You:</h3>
         <div className="space-y-6">
           <div className="flex space-x-6 justify-center items-center">
             <div className="h-[451px] w-[411px] bg-red-400 rounded-2xl">
@@ -98,6 +70,9 @@ function Contact() {
           </div>
         </div>
       </section>
+
+
+     <Footer/>
     </div>
   );
 }

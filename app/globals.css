@@ -2,3 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+    font-family: "Unbounded-regular";
+    src: url("../public/fonts/Unbounded-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Playfair-Regular";
+    src: url("../public/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Playfair-bold-italic";
+    src: url("../public/fonts/PlayfairDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Craftswork-semibold";
+    src: url("../public/fonts/CraftworkGrotesk-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../public/fonts/Poppins-Regular.ttf");
+}
+.poppins-regular{
+    font-family: "Poppins-Regular";
+
+}
+.unbounded-regular{
+    font-family: "Unbounded-regular";   
+}
+.playfair-regular{
+    font-family: "Playfair-regular";
+}
+.playfair-bold-italic{
+    font-family: "Playfair-regular";
+}
+.craftswork-semibold{
+    font-family: "craftswork-semibold";
+    /* font-weight: bolder;  */
+}
+.craftswork-regular{
+
+}
