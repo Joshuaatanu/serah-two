@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navabar";
 import React, { useState } from "react";
 
@@ -132,7 +133,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="px-32 mt-20">
+      <section className="px-32 ml -mt-20">
         <h3 className=" playfair-regular italic font-semibold  text-[48px]">Tell me more about your needs <br />
         copy and content needs</h3>
 
@@ -180,6 +181,7 @@ function Contact() {
         </div>
 
       </section>
+      <Footer/>
     </div>
   );
 }

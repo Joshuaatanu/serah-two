@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navabar";
 import React from "react";
 
@@ -7,26 +8,16 @@ function About() {
     <div className="bg-[#E9eeed] bg-cover">
       <Navbar />
       <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/home_jumbo.jpg")]'>
-        <h3 className="text-[100px] text-white">
-          <span className="text-green-600 italic"> No better time</span>
+        <h3 className="text-[100px] playfair-regular mt-[80px] text-white">
+          <span className="text-[#3E5258] italic"> No better time</span>
           &nbsp;for Vegan <br /> and plant based brands to
           <br /> Flourish!
         </h3>
-        <p className="text-[24px] text-white">
-          At our company, we specialize in providing top-quality services to our{" "}
-          <br /> clients. Our team of experts works tirelessly to ensure that
-          every project <br /> is completed to the highest..
-        </p>
-        <button
-          className="bg-[#7399A4] px-6 lg:text-[20px] py-6 rounded-2xl mt-5"
-          aria-label="jumbtron_home_button"
-        >
-          Transform your Journey
-        </button>
+        
       </div>
       <section className="px-32 mt-10">
         <div className="">
-          <ul className="text-center space-y-2">
+          <ul className="text-center space-y-2 craftswork-semibold">
             <li>
               Plant based diets have been linked to lower rates of heart disease
             </li>
@@ -48,8 +39,9 @@ function About() {
       <section className="px-32 mt-6">
         <div className="flex items-center">
           <div>
-            <h3 className="text-[48px]">Find Out what make me unique</h3>
-            <p className=" mt-3 text-[24px]">
+            <h3 className="text-center playfair-regular italic font-semibold  text-[48px]">Find Out what make me unique</h3>
+            
+            <p className=" mt-3 text-[24px] craftswork-semibold">
               Hello, I’m Sarah Tex. It's really great to make your acquaintance.
               As <br /> a marketer and writer, I help businesses like yours
               transcend <br />
@@ -57,7 +49,7 @@ function About() {
               <br />
               marketing strategies. 
             </p>
-            <p className=" mt-3 text-[24px]">
+            <p className=" mt-3 text-[24px]   craftswork-semibold">
               My interest in this industry developed came from a place of <br />
               fascination on the positive impacts of dietary changes and how
               <br />
@@ -67,7 +59,7 @@ function About() {
               <br />
               contributing in my own way through penmanship.
             </p>
-            <p className=" mt-3 text-[24px]">
+            <p className=" mt-3 text-[24px]   craftswork-semibold">
               And of course I have to commend your commitment, to spreading
               <br />
               the word and making the products available to consumers on a
@@ -76,7 +68,7 @@ function About() {
               more sustainable way of living and as a writer dedicated to <br />
               reaching the audience of these products,
             </p>
-            <p className=" mt-3 text-[24px]">
+            <p className=" mt-3 text-[24px]   craftswork-semibold">
               I'm here to help your business flourish through good copy. Turning{" "}
               <br />
               this significant market opportunity into sustainable and
@@ -88,9 +80,11 @@ function About() {
         </div>
       </section>
 
-      <div className="flex flex-row justify-center items-center mt-4 ">
+      {/* <div className="flex flex-row justify-center items-center mt-4 ">
         <div className='h-[420px] w-[1320px] rounded-[30px] bg-cover px-32 py-16  bg-[url("../public/call_to_action_about.jpg")]'></div>
-      </div>
+      </div> */}
+
+      <Footer/>
     </div>
   );
 }
