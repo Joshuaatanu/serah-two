@@ -134,7 +134,7 @@ function Contact() {
       </section>
 
       <section className="px-32 ml -mt-20">
-        <h3 className=" playfair-regular italic font-semibold  text-[48px]">Tell me more about your needs <br />
+        <h3 className=" playfair-regular italic font-semibold  text-[48px] mt-[20%]">Tell me more about your needs <br />
         copy and content needs</h3>
 
         <div className="mt-10 flex space-x-20">
