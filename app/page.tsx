@@ -40,13 +40,13 @@ export default function Home() {
         </div>
       </section>
       {/* logo section */}
-      <section>
+      {/* <section>
         <div className="bg-red-400 h-[267px] w-full bg-cover">
           <h2 className="text-center text-[40px]"> Logo section</h2>
         </div>
-      </section>
+      </section> */}
       {/* what we offer  section */}
-      <section className="px-32 flex ">
+      <section className="px-32 flex  mt-10">
         <div>
           <p className="text-[20px] text-[#727070] craftswork-semibold ">
             The industry is booming and more people around the globe <br /> are
