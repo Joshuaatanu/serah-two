@@ -46,7 +46,6 @@ function Contact() {
           Taste Meets health <br /> in a minimalist <br /> Universe Cruelty free
           Brands.
         </h3>
-        
       </div>
 
       <section className="px-[32px] mb-16">
@@ -67,7 +66,7 @@ function Contact() {
             {tab.map((tab, index) => (
               <button
                 key={index}
-                className={`px-8 py-2 hover:bg-red-300 ml-4
+                className={`px-8 py-2 transition hover:bg-blue-300 ml-4
               heading:"", ${
                 activeTab === index
                   ? "bg-blue-500 text-white"
@@ -148,16 +147,60 @@ function Contact() {
         </h3>
         <div className="space-y-6">
           <div className="flex space-x-6 justify-center items-center">
-            <div className="h-[451px] w-[411px] bg-red-400 rounded-2xl">
-              <h3></h3>
+            <div className="h-[451px] w-[411px] bg-[#A0BFC8] rounded-2xl">
+              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+                Strategic <br /> Approach
+              </h3>
+              <p className="px-8 text-[20px] craftswork-semibold">
+                Every piece of content is crafted with an approach to align with
+                your business goals, ensuring that each element serves a purpose
+                in your overall content strategy.
+              </p>
             </div>
-            <div className="h-[451px] w-[411px] bg-red-400 rounded-2xl"></div>
-            <div className="h-[451px] w-[411px] bg-red-400 rounded-2xl"></div>
+            <div className="h-[451px] w-[411px] bg-[#A0BFC8] rounded-2xl">
+              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+                Tailored <br /> Brand Voice
+              </h3>
+              <p className="px-8 text-[20px] craftswork-semibold">
+                Understanding the importance of maintaining a consistent brand
+                voice is crucial. Our content is carefully put together to
+                reflect your unique tone, style, and brand personality.
+              </p>
+            </div>
+            <div className="h-[451px] w-[411px] bg-[#A0BFC8]  rounded-2xl">
+              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+                Research <br />
+                Backed <br /> Content
+              </h3>
+              <p className="px-8 text-[20px] craftswork-semibold">
+                I delve into thorough research to ensure that your content is
+                not only engaging but also backed by credible information,
+                positioning your brand as an authority in your industry.
+              </p>
+            </div>
           </div>
 
           <div className=" flex space-x-6 justify-center items-center">
-            <div className="h-[451px] w-[626px] bg-red-400 rounded-2xl"></div>
-            <div className="h-[451px] w-[626px] bg-red-400 rounded-2xl"></div>
+            <div className="h-[451px] w-[626px] bg-[#A0BFC8] rounded-2xl">
+              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+                Engagement <br /> and Conversion
+              </h3>
+              <p className="px-8 text-[20px] craftswork-semibold">
+                Whether it's an article, FAQ, newsletter, email-marketing or
+                case study, our content is designed to engage your audience and
+                drive conversions. Each piece is tailored for user experience
+                and conversion goals.
+              </p>
+            </div>
+            <div className="h-[451px] w-[626px] bg-[#A0BFC8] rounded-2xl">
+            <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+                Consistent <br /> Measurable Results
+              </h3>
+              <p className="px-8 text-[20px] craftswork-semibold">
+              For case studies, the focus is on results that provide concrete evidence of your success stories. This data-driven approach reinforces trust and credibility with potential clients. In essence, our service page offers a comprehensive suite of content solutions that go beyond words – we create a narrative that builds trust, engages your audience, and drives tangible results for your business.
+                
+              </p>
+            </div>
           </div>
         </div>
       </section>
