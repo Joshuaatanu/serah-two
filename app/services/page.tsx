@@ -139,6 +139,21 @@ function Contact() {
               </p>
             </div>
           </div>
+
+          <div
+            className={`flex  items-center  justify-center ${
+              activeTab === 4 ? "" : "hidden"
+            } `}
+          >
+            <div className="">
+              <h3 className="text-[20px]  font-bold text-center mb-3">
+                {tab[4].heading}
+              </h3>
+              <p className="poppins-regular text-[20px] text-[3]">
+                {tab[4].content}
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -149,7 +164,7 @@ function Contact() {
         <div className="space-y-6">
           <div className="flex space-x-6 justify-center items-center">
             <div className="h-[451px] w-[411px] bg-[#A0BFC8] rounded-2xl">
-              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+              <h3 className="text-[48px] px-8 text-[#E6FCF5] craftswork-semibold font-medium py-6">
                 Strategic <br /> Approach
               </h3>
               <p className="px-8 text-[20px] craftswork-semibold">
@@ -159,7 +174,7 @@ function Contact() {
               </p>
             </div>
             <div className="h-[451px] w-[411px] bg-[#A0BFC8] rounded-2xl">
-              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+              <h3 className="text-[48px] px-8 text-[#E6FCF5] craftswork-semibold font-medium py-6">
                 Tailored <br /> Brand Voice
               </h3>
               <p className="px-8 text-[20px] craftswork-semibold">
@@ -169,7 +184,7 @@ function Contact() {
               </p>
             </div>
             <div className="h-[451px] w-[411px] bg-[#A0BFC8]  rounded-2xl">
-              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+              <h3 className="text-[48px] px-8 text-[#E6FCF5] craftswork-semibold font-medium py-6">
                 Research <br />
                 Backed <br /> Content
               </h3>
@@ -183,7 +198,7 @@ function Contact() {
 
           <div className=" flex space-x-6 justify-center items-center">
             <div className="h-[451px] w-[626px] bg-[#A0BFC8] rounded-2xl">
-              <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+              <h3 className="text-[48px] text-[#E6FCF5] px-8 craftswork-semibold font-medium py-6">
                 Engagement <br /> and Conversion
               </h3>
               <p className="px-8 text-[20px] craftswork-semibold">
@@ -194,7 +209,7 @@ function Contact() {
               </p>
             </div>
             <div className="h-[451px] w-[626px] bg-[#A0BFC8] rounded-2xl">
-            <h3 className="text-[48px] px-8 craftswork-semibold font-medium py-6">
+            <h3 className="text-[48px] px-8 text-[#E6FCF5] craftswork-semibold font-medium py-6">
                 Consistent <br /> Measurable Results
               </h3>
               <p className="px-8 text-[20px] craftswork-semibold">
