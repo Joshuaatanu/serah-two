@@ -63,7 +63,7 @@ function Contact() {
 
       {/* services offered section */}
 
-      <section>
+      {/* <section>
         <div className="max-w-3xl mx-auto">
           <div className="flex">
             {tab.map((tab, index) => (
@@ -131,10 +131,10 @@ function Contact() {
               
             </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="px-32 ml -mt-20">
-        <h3 className=" playfair-regular italic font-semibold  text-[48px] mt-[20%]">Tell me more about your needs <br />
+      <section className="px-32 ml-52 mt-20">
+        <h3 className=" playfair-regular italic font-semibold  text-[48px]">Tell me more about your needs <br />
         copy and content needs</h3>
 
         <div className="mt-10 flex space-x-20">

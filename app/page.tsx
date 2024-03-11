@@ -5,32 +5,32 @@ export default function Home() {
   return (
     <div className="bg-[#E9eeed]">
       <Navbar />
-      <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/home_jumbo.jpg")]'>
-        <h3 className="text-[60px] unbounded-regular text-white">
+      <div className='lg:h-[829px] w-full bg-cover lg:px-32 px-8 lg:py-16 py-16  bg-[url("../public/home_jumbo.jpg")]'>
+        <h3 className="lg:text-[60px] text-[30px] unbounded-regular text-white">
           The Premiere Copy <br /> Destination For Plant/ <br /> Vegan Food and
           Cruelty free Brands.
         </h3>
-        <p className="text-[24px] playfair-regular text-white">
+        <p className="lg:text-[24px]  text-[12px] playfair-regular text-white">
           At our company, we specialize in providing top-quality services to our{" "}
           <br /> clients. Our team of experts works tirelessly to ensure that
           every project <br /> is completed to the highest..
         </p>
         <button
-          className="bg-[#7399A4] px-6 lg:text-[20px] py-6 rounded-2xl mt-5"
+          className="bg-[#7399A4] lg:px-6  px-3 lg:text-[20px] lg:py-6 py-3 rounded-2xl mt-5"
           aria-label="jumbtron_home_button"
         >
           Transform your Journey
         </button>
       </div>
       {/* What we do section */}
-      <section className="px-32">
-        <h3 className="text-center text-[40px] playfair-bold-italic italic font-bold">What we do</h3>
-        <div className="flex flex-row">
-          <h3 className="text-[60px] craftswork-semibold font-semibold">
+      <section className="lg:px-32 px-16">
+        <h3 className="text-center lg:text-[40px]  text-[15px] playfair-bold-italic italic font-bold">What we do</h3>
+        <div className="flex lg:flex-row flex-col">
+          <h3 className="lg:text-[60px] text-[20px] craftswork-semibold font-semibold">
             There’s more to your <br /> brand but are your <br />
             customers aware ?
           </h3>
-          <p className="text-[20px] ml-[500px] text-[#727070] px-5 mt-8 craftswork-semibold">
+          <p className="lg:text-[20px]  lg:ml-[500px] text-[#727070] lg:px-5 mt-8 craftswork-semibold">
             Having a unique voice can be a struggle, with so many <br /> health
             focused and cruelty free brands, many have found <br /> themselves
             getting swallowed in that ocean. <br />
@@ -46,9 +46,9 @@ export default function Home() {
         </div>
       </section> */}
       {/* what we offer  section */}
-      <section className="px-32 flex  mt-10">
+      <section className="lg:px-32 px-16 lg:flex  mt-10">
         <div>
-          <p className="text-[20px] text-[#727070] craftswork-semibold ">
+          <p className="lg:text-[20px] text-[10px] text-[#727070] craftswork-semibold ">
             The industry is booming and more people around the globe <br /> are
             searching daily for trusted brands to help on their <br /> journey.
             But, having a wide reach and driving traffic where <br /> needed can
@@ -58,7 +58,7 @@ export default function Home() {
             to your audience, building trust whilst offering <br />
             some of the best products.
           </p>
-          <p className="text-16px mt-16  playfair-regular">
+          <p className="text-16px lg:mt-16   playfair-regular">
             At our company, we specialize in providing top- <br />
             quality services to our clients. Our team of experts <br /> works
             tirelessly to ensure that every project is <br /> completed to the
