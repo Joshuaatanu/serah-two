@@ -33,8 +33,8 @@ function Contact() {
   return (
     <div className="bg-[#E9eeed]">
       <Navbar />
-      <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/services_jumbo.jpg")]'>
-        <h3 className="text-[96px] unbounded-regular text-white">
+      <div className='lg:h-[829px] w-full bg-cover lg:px-32 px-16 lg:py-16 py-8 bg-[url("../public/services_jumbo.jpg")]'>
+        <h3 className="lg:text-[96px] text-[48px] unbounded-regular text-white">
           Taste Meets health <br /> in a minimalist <br /> Universe Cruelty free
           Brands.
         </h3>
@@ -52,10 +52,10 @@ function Contact() {
       </div>
       {/* redefine headding */}
       <section className="mb-16">
-        <h3 className="text-center playfair-regular italic font-semibold font-[48px] text-[48px]">
+        <h3 className="text-center playfair-regular italic font-semibold font-[48px] lg:text-[48px] text-[24px]">
           Ready to Redefine Your Narrative?
         </h3>
-        <p className="text-[16px] playfair-regular text-center">
+        <p className="lg:text-[16px] text-[9px] playfair-regular text-center">
           Crafting compelling copy that ot only converts but also leaves
           customers wanting more
         </p>
@@ -133,40 +133,40 @@ function Contact() {
         </div>
       </section> */}
 
-      <section className="px-32 ml-52 mt-20">
-        <h3 className=" playfair-regular italic font-semibold  text-[48px]">Tell me more about your needs <br />
+      <section className="lg:px-32 px-8 lg:ml-52 mt-20">
+        <h3 className=" playfair-regular italic font-semibold  lg:text-[48px] text-[24px]">Tell me more about your needs <br />
         copy and content needs</h3>
 
-        <div className="mt-10 flex space-x-20">
-          <div>
+        <div className="mt-10 flex  lg:space-x-20 space-x-10">
+          <div >
             <label>Your name</label><br />
-            <input type="text" aria-label="input" className=" h-[43px] w-[600px] rounded-lg px-4" placeholder="John Smith"/>
-          </div>
-          <div>
-            <label>Your Email</label><br />
-            <input type="email" aria-label="input" className=" h-[43px] w-[600px] rounded-lg px-4" placeholder="johnsmith@gmail.com"/>
+            <input type="text" aria-label="input" className=" h-[43px] lg:w-[600px] w-[200px] rounded-lg px-4" placeholder="John Smith"/>
+          </div >
+          <div className=" flex flex-col">
+            <label>Your Email</label>
+            <input type="email" aria-label="input" className=" h-[43px] lg:w-[600px] w-[200px] rounded-lg px-4" placeholder="johnsmith@gmail.com"/>
           </div>
         </div>
 
-        <div className="mt-5 flex space-x-20">
+        <div className="mt-5 flex lg:space-x-20 space-x-10">
           <div>
             <label>what's your brand called ?</label><br />
-            <input type="text" aria-label="input" className=" h-[43px] w-[600px] rounded-lg px-4" />
+            <input type="text" aria-label="input" className=" h-[43px] lg:w-[600px] w-[200px] rounded-lg px-4" />
           </div>
           <div>
             <label>Duration</label><br />
-            <input type="text" aria-label="input" className=" h-[43px] w-[600px] rounded-lg px-4" />
+            <input type="text" aria-label="input" className=" h-[43px] lg:w-[600px] w-[200px] rounded-lg px-4" />
           </div>
         </div>
 
-        <div className="mt-5 flex space-x-20">
+        <div className="mt-5 flex lg:space-x-20 space-x-10">
           <div>
             <label>What's your position</label><br />
-            <input type="text" aria-label="input" className=" h-[43px] w-[600px] rounded-lg px-4" />
+            <input type="text" aria-label="input" className=" h-[43px] lg:w-[600px] w-[200px] rounded-lg px-4" />
           </div>
           <div>
             <label>Whats your budget?</label><br />
-            <input type="text" aria-label="input" className=" h-[43px] w-[600px] rounded-lg px-4" />
+            <input type="text" aria-label="input" className=" h-[43px] lg:w-[600px] w-[200px] rounded-lg px-4" />
           </div>
         </div>
 
@@ -176,7 +176,7 @@ function Contact() {
         <div className="mt-5">
         <div>
             <label>Tell  me more about content package are you looking for ?</label><br />
-            <input type="text" aria-label="input" className=" h-[123px] w-[1289px] rounded-lg px-4" />
+            <input type="text" aria-label="input" className=" h-[123px] lg:w-[1289px] w-[440px] rounded-lg px-4" />
           </div>
         </div>
 

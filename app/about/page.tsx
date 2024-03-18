@@ -7,15 +7,15 @@ function About() {
   return (
     <div className="bg-[#E9eeed] bg-cover">
       <Navbar />
-      <div className='h-[829px] w-full bg-cover px-32 py-16  bg-[url("../public/home_jumbo.jpg")]'>
-        <h3 className="text-[100px] playfair-regular mt-[80px] text-white">
+      <div className='lg:h-[829px] w-full bg-cover lg:px-32 px-16 py-16  bg-[url("../public/home_jumbo.jpg")]'>
+        <h3 className="lg:text-[100px] text-[50px] playfair-regular mt-[80px] text-white">
           <span className="text-[#3E5258] italic"> No better time</span>
           &nbsp;for Vegan <br /> and plant based brands to
           <br /> Flourish!
         </h3>
         
       </div>
-      <section className="px-32 mt-10">
+      <section className="lg:px-32 px-16 mt-10">
         <div className="">
           <ul className="text-center space-y-2 craftswork-semibold">
             <li>
@@ -36,12 +36,12 @@ function About() {
         </div>
       </section>
       {/* about section */}
-      <section className="px-32 mt-6">
-        <div className="flex items-center">
+      <section className="lg:px-32 px-16 mt-6">
+        <div className="lg:flex  items-center">
           <div>
-            <h3 className="text-center playfair-regular italic font-semibold  text-[48px]">Find Out what make me unique</h3>
+            <h3 className="text-center playfair-regular italic font-semibold  lg:text-[48px] text-[24px]">Find Out what make me unique</h3>
             
-            <p className=" mt-3 text-[24px] craftswork-semibold">
+            <p className=" mt-3 lg:text-[24px] text-[12.5px] craftswork-semibold">
               Hello, I’m Sarah Tex. It's really great to make your acquaintance.
               As <br /> a marketer and writer, I help businesses like yours
               transcend <br />
@@ -49,7 +49,7 @@ function About() {
               <br />
               marketing strategies. 
             </p>
-            <p className=" mt-3 text-[24px]   craftswork-semibold">
+            <p className=" mt-3 lg:text-[24px] text-[12.5px]   craftswork-semibold">
               My interest in this industry developed came from a place of <br />
               fascination on the positive impacts of dietary changes and how
               <br />
@@ -59,7 +59,7 @@ function About() {
               <br />
               contributing in my own way through penmanship.
             </p>
-            <p className=" mt-3 text-[24px]   craftswork-semibold">
+            <p className=" mt-3 lg:text-[24px] text-[12.5px]   craftswork-semibold">
               And of course I have to commend your commitment, to spreading
               <br />
               the word and making the products available to consumers on a
@@ -68,7 +68,7 @@ function About() {
               more sustainable way of living and as a writer dedicated to <br />
               reaching the audience of these products,
             </p>
-            <p className=" mt-3 text-[24px]   craftswork-semibold">
+            <p className=" mt-3 lg:text-[24px] text-[12.5px]   craftswork-semibold">
               I'm here to help your business flourish through good copy. Turning{" "}
               <br />
               this significant market opportunity into sustainable and
@@ -76,7 +76,7 @@ function About() {
               varied approach and <br /> that's where I come in.
             </p>
           </div>
-          <div className="bg-red-400 h-[600px] w-[448px] mt-3 ml-56"></div>
+          <div className="bg-red-400 lg:h-[600px] lg:w-[448px] mt-3 ml-56"></div>
         </div>
       </section>
 
